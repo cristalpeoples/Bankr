@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Bankr.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: right;
+        }
+        .auto-style3 {
+            text-decoration: none;
+        }
+        .auto-style6 {
+            text-align: left;
+            margin-left: 40px;
+        }
+        .auto-style8 {
+            text-align: left;
+            width: 387px;
+            margin-left: 200px;
+        }
+        .auto-style9 {
+            text-align: left;
+            margin-left: 200px;
+            width: 972px;
+            margin-right: 0px;
+        }
+        .auto-style10 {
+            font-size: xx-large;
+        }
+        .auto-style12 {
+            width: 62%;
+            height: 88px;
+        }
+        .auto-style13 {
+            width: 1170px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+            <table align="right" class="auto-style12">
+                <tr>
+                    <td class="auto-style13">
+            <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Default.aspx" CssClass="auto-style3">Home</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/budget.aspx" CssClass="auto-style3">Budget Overview</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/register.aspx" CssClass="auto-style3">Sign in</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="HyperLink16" runat="server" NavigateUrl="~/test.aspx">Sign up</asp:HyperLink>
+&nbsp; &nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/about.aspx" CssClass="auto-style3">About</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink15" runat="server" NavigateUrl="~/contact.aspx" CssClass="auto-style3">Contact</asp:HyperLink>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>
+                        <asp:Image ID="logo1" runat="server" Height="92px" ImageUrl="images/BankrLogo1.png" Width="102px" />
+                    </td>
+                </tr>
+            </table>
+&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+        <p class="auto-style1">
+            &nbsp;&nbsp;&nbsp; </p>
+    </form>
+    <p class="auto-style6">
+        <span class="auto-style10">BANKR</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Latest Blog Post</p>
+    <p class="auto-style9">
+        Ready to get started? </p>
+    <p class="auto-style8">
+        Bankr’ provides users with an automated way to achieve their financial goals. Users can manage their finances, set budget goals, and receive investment suggestions from expert financial analysts as well as through AI-powered automation.</p>
+    </body>
+</html>
